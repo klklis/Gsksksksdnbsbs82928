@@ -1,18 +1,12 @@
 app = "gsksksksdnbsbs82928"
 
-[build]
-  image = "python:3.11"
-
 [env]
   PORT = "8080"
-
-[processes]
-  app = "python main.py"
 
 [[services]]
   internal_port = 8080
   protocol = "tcp"
 
   [[services.ports]]
-    handlers = ["http"]
     port = 80
+    handlers = ["http"]
