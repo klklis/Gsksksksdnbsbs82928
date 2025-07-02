@@ -7,7 +7,7 @@ from collections import defaultdict
 
 API_ID = 25053231
 API_HASH = '74cf3c784b07be86735222255eadecce'
-BOT_TOKEN = '7397148345:AAHl8ze7pLgtivNJVurNCh4xW3zGKiUIk14'
+BOT_TOKEN = '7755866198:AAH2TzyWcmxwD8Se83x7T2kRVEWmGPtnM08'
 
 OWNER_ID = 6455754723
 ADMINS_FILE = "admins.json"
