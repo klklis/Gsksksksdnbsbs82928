@@ -4,7 +4,8 @@ from telethon.errors import SessionPasswordNeededError, FloodWaitError
 from telethon.tl.functions.channels import InviteToChannelRequest
 from telethon.tl.types import InputPeerUser
 from collections import defaultdict
-
+from keep_alive import keep_alive
+keep_alive()
 API_ID = 25053231
 API_HASH = '74cf3c784b07be86735222255eadecce'
 BOT_TOKEN = '7755866198:AAH2TzyWcmxwD8Se83x7T2kRVEWmGPtnM08'
