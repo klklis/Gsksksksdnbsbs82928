@@ -457,4 +457,5 @@ if __name__ == '__main__':
  ensure_file(ADDED_FILE)
  ensure_file(FAILED_FILE)
  asyncio.get_event_loop().run_until_complete(load_existing_sessions())
+ keep_alive()
  bot.run_until_disconnected()
